@@ -1,0 +1,23 @@
+{
+  "name": "learny",
+  "version": "1.0.0",
+  "description": "A place to share knowledge!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suparpat/learny.git"
+  },
+  "author": "suparpat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suparpat/learny/issues"
+  },
+  "homepage": "https://github.com/suparpat/learny#readme",
+  "dependencies": {
+    "angular": "^1.5.3",
+    "express": "^4.13.4"
+  }
+}
