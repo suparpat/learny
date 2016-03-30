@@ -4,31 +4,31 @@
 
 angular.module('learny.controllers', [])
 
-  .controller('LearnyCtrl', function ($scope, $http) {
+  .controller('LearnyController', function ($scope, $http) {
 
-    $http({
-      method: 'GET',
-      url: '/api/name'
-    }).
-    success(function (data, status, headers, config) {
-      $scope.name = data.name;
-    }).
-    error(function (data, status, headers, config) {
-      $scope.name = 'Error!';
-    });
+    // $http({
+    //   method: 'GET',
+    //   url: '/api/name'
+    // }).
+    // success(function (data, status, headers, config) {
+    //   $scope.name = data.name;
+    // }).
+    // error(function (data, status, headers, config) {
+    //   $scope.name = 'Error!';
+    // });
 
   })
 
 
 
-  .controller('MyCtrl1', function ($scope) {
+  .controller('homeController', function ($scope) {
     // write Ctrl here
 
   })
 
 
 
-  .controller('MyCtrl2', function ($scope) {
+  .controller('aboutController', function ($scope) {
     // write Ctrl here
 
   });
