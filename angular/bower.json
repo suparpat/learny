@@ -1,0 +1,27 @@
+{
+  "name": "learny",
+  "description": "A place to share knowledge!",
+  "main": "app.js",
+  "authors": [
+    "suparpat"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/suparpat/learny",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "^0.2.18",
+    "angular": "^1.5.3",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.2",
+    "angular-bootstrap": "^1.2.5",
+    "angular-animate": "^1.5.3",
+    "angular-touch": "^1.5.3"
+  }
+}
