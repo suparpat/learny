@@ -2,14 +2,16 @@
 <head>
 <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
 <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="/bower_components/quill/dist/quill.snow.css">
 <link rel="stylesheet" href="/css/custom.css">
 </head>
 
 <body ng-controller="LearnyController">
 
-
-<h1>Hell0!</h1>
+<nav-bar></nav-bar>
 <div ng-view></div>
+<my-footer></my-footer>
+
 
 <!-- <script src="/bower_components/jquery/dist/jquery.min.js"></script> -->
 <script src="/bower_components/angular/angular.js"></script>
@@ -20,11 +22,17 @@
 <script src="/bower_components/angular-touch/angular-touch.min.js"></script>
 <script src="/bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
 
+<script src="/bower_components/quill/dist/quill.js"></script>
+<script src="/bower_components/ngQuill/src/ng-quill.js"></script>
+
 
 
 <script src="/app/app.js"></script>
 <script src="/app/controllers.js"></script>
 <script src="/app/directives.js"></script>
+<script src="/app/components/menu/menu.directives.js"></script>
+<script src="/app/components/footer/footer.directives.js"></script>
+
 <script src="/app/filters.js"></script>
 <script src="/app/services.js"></script>
 

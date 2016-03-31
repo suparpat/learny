@@ -1,0 +1,11 @@
+<div class="container">
+	<h2>Create!</h2>
+		<div class="quill-wrapper" style="height: 500px;">
+			<ng-quill-editor ng-model="message" toolbar="true" link-tooltip="true" image-tooltip="true" toolbar-entries="font size bold list bullet italic underline strike align color background link image" editor-required="true" required="" error-class="input-error"></ng-quill-editor>
+		</div>
+
+		<h3>HTML</h3>
+		<div>
+			{{message}}
+		</div>
+</div>

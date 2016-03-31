@@ -25,8 +25,19 @@ angular.module('learny.controllers', [])
     // write Ctrl here
 
   })
+  .controller('browseController', function ($scope) {
+    // write Ctrl here
 
+  })
+  .controller('createController', function ($scope) {
+    // write Ctrl here
 
+  })
+
+  .controller('loginController', function ($scope) {
+    // write Ctrl here
+
+  })
 
   .controller('aboutController', function ($scope) {
     // write Ctrl here
