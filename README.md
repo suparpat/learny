@@ -13,6 +13,13 @@ https://angular-ui.github.io/bootstrap/
 
 ###Angular
 
+http://www.johnpapa.net/angular-app-structuring-guidelines/
+
+http://www.sitepoint.com/practical-guide-angularjs-directives/
+
+http://busypeoples.github.io/post/thinking-in-components-angular-js/
+
+https://github.com/johnpapa/angular-styleguide
 
 ###Quill
 https://github.com/quilljs/quill
