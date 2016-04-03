@@ -1,5 +1,5 @@
 # learny
-A place where people come to share their knowledge
+A place where people come to share knowledge
 
 Made with Express.js, Angular.js and PostgreSQL
 
