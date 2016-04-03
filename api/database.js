@@ -53,7 +53,7 @@ var doesTableExist = function (tableName) {
 	return Model.Bookshelf.knex.schema.hasTable(tableName);
 };
  
-var initDb = function () {
+var initDb = function (startServerCb) {
 	var calls = [];
 	var tableNames = _.keys(Schema);
  
@@ -91,6 +91,7 @@ var initDb = function () {
 	Async.series(calls, function (err, result) {
 		if (!err) {
 			console.log("Finished initialising database table");
+			startServerCb();
 		} else {
 			console.log("Error initialising database table: " + err);
 		}

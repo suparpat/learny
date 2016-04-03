@@ -9,16 +9,22 @@
   "author": "suparpat",
   "license": "MIT",
   "dependencies": {
-    "async": "^2.0.0-rc.2",
-    "bluebird": "^3.3.4",
-    "body-parser": "^1.15.0",
-    "bookshelf": "^0.9.3",
-    "express": "^4.13.4",
-    "knex": "^0.10.0",
-    "lodash": "^4.7.0",
-    "method-override": "^2.3.5",
-    "moment": "^2.12.0",
-    "multer": "^1.1.0",
-    "pg": "^4.5.2"
+    "async": "*",
+    "bcrypt": "^0.8.2",
+    "bluebird": "*",
+    "body-parser": "*",
+    "bookshelf": "*",
+    "ejs": "*",
+    "errorhandler": "*",
+    "express": "*",
+    "imagemagick": "*",
+    "jquery": "*",
+    "knex": "*",
+    "lodash": "*",
+    "method-override": "^2.3.2",
+    "moment": "^2.10.2",
+    "multer": "^0.1.8",
+    "pg": "*",
+    "request": "*"
   }
 }
