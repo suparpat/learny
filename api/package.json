@@ -2,10 +2,23 @@
   "name": "learny_api",
   "version": "1.0.0",
   "description": "API for Learny!",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "suparpat",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.0.0-rc.2",
+    "bluebird": "^3.3.4",
+    "body-parser": "^1.15.0",
+    "bookshelf": "^0.9.3",
+    "express": "^4.13.4",
+    "knex": "^0.10.0",
+    "lodash": "^4.7.0",
+    "method-override": "^2.3.5",
+    "moment": "^2.12.0",
+    "multer": "^1.1.0",
+    "pg": "^4.5.2"
+  }
 }
