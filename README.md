@@ -1,10 +1,10 @@
 # learny
 A place where people come to share their knowledge
 
-Made with Express.js and Angular.js
+Made with Express.js and Angular.js with PostgreSQL
 
 
-#references
+###references
 http://getbootstrap.com/getting-started/#examples
 
 https://angular-ui.github.io/bootstrap/
