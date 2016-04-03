@@ -12,3 +12,7 @@ https://angular-ui.github.io/bootstrap/
 https://github.com/quilljs/quill
 
 https://github.com/KillerCodeMonkey/ngQuill
+
+http://www.postgresqlforbeginners.com/
+
+http://dnyy.sg/a-postgresql-backend-service-on-node-js-with-express-and-bookshelf-js/
