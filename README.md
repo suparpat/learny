@@ -7,7 +7,7 @@ Made with Express.js and Angular.js
 
 ### Start/Stop
 
-service postgresql stop/start/restart
+>  service postgresql stop/start/restart
 
 ### Create Database
 
