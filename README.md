@@ -21,6 +21,8 @@ http://busypeoples.github.io/post/thinking-in-components-angular-js/
 
 https://github.com/johnpapa/angular-styleguide
 
+https://medium.com/@bluepnume/sane-scalable-angular-apps-are-tricky-but-not-impossible-lessons-learned-from-paypal-checkout-c5320558d4ef#.nlfw8rqyy
+
 ###Quill
 https://github.com/quilljs/quill
 
