@@ -11,9 +11,14 @@ angular.module('learny', [
   'learny.filters',
   'learny.services',
   'learny.directives',
+  'learny.components.home',
   'learny.components.menu',
+  'learny.components.browse',
+  'learny.components.create',
+  'learny.components.login',
+  'learny.components.register',
   'learny.components.footer',
-  'ngQuill'
+  'learny.components.feedback'
 ])
 
   .config(function($routeProvider, $locationProvider){
@@ -22,16 +27,14 @@ angular.module('learny', [
         redirectTo: '/home'
       })
       .when('/home',{
-        templateUrl: 'views/home.html',
-        controller: 'homeController'
+        template: '<home></home>'
       })
       .when('/browse',{
-        templateUrl: 'views/browse.html',
-        controller: 'browseController'
+        template: '<browse></browse>'
       })
+
       .when('/create',{
-        templateUrl: 'views/create.html',
-        controller: 'createController'
+        template: '<create></create>'
       })
 
       .when('/about',{
@@ -39,14 +42,16 @@ angular.module('learny', [
         controller: 'aboutController'
       })
       .when('/login',{
-        templateUrl: 'views/login.html',
-        controller: 'loginController'
+        template: '<login></login>'
+      })
+      .when('/register',{
+        template: '<register></register>'
       })
       .when('/faqs',{
         templateUrl: 'views/faqs.html'
       })
       .when('/feedback',{
-        templateUrl: 'views/feedback.html'
+        template: '<feedback></feedback>'
       })
       .otherwise({
         templateUrl: 'views/a-mysterious-place.html'

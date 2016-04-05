@@ -1,5 +1,6 @@
 //http://dnyy.sg/a-postgresql-backend-service-on-node-js-with-express-and-bookshelf-js/
-//
+//https://github.com/boxme/Node-Bookself-PostgreSql-Demo
+
 var Express = require("express");
 var App = Express();
 var Http = require("http");
@@ -14,17 +15,26 @@ var CategoryController = require("./routes/category.js");
 var PostController = require("./routes/post.js");
 var TagController = require("./routes/tag.js");
 
+var angularUrl = "http://localhost:3000";
 // App.use(Multer());
 App.use(MethodOverride());
 App.use(BodyParser.json());
 App.use(BodyParser.urlencoded({extended: true}));
+
+
+//http://enable-cors.org/server_expressjs.html
+App.use(function(req, res, next) {
+  // res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Origin", angularUrl);
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
 
 Db.initialisation(function(){
 	Http.createServer(App).listen(3010, function(){
 		console.log('API server running on port 3010')
 	});	
 });
-
 
 
 

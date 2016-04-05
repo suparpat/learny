@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-angular.module('learny.controllers', [])
+angular.module('learny.controllers', ['learny.services'])
 
   .controller('LearnyController', function ($scope, $http) {
 
@@ -19,27 +19,6 @@ angular.module('learny.controllers', [])
 
   })
 
-
-
-  .controller('homeController', function ($scope) {
-    // write Ctrl here
-
-  })
-  .controller('browseController', function ($scope) {
-    // write Ctrl here
-
-  })
-  .controller('createController', function ($scope) {
-    // write Ctrl here
-
-  })
-
-  .controller('loginController', function ($scope) {
-    // write Ctrl here
-
-  })
-
   .controller('aboutController', function ($scope) {
-    // write Ctrl here
 
   });
