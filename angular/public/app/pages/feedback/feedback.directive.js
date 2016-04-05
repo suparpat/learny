@@ -4,7 +4,7 @@ angular.module('learny.components.feedback',['learny.services.feedback'])
   return {
     scope: {},
     replace: true,
-    templateUrl: 'app/components/feedback/feedback.html',
+    templateUrl: 'app/pages/feedback/feedback.html',
     controller: function(){
 
     }

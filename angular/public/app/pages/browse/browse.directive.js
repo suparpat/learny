@@ -4,7 +4,7 @@ angular.module('learny.components.browse',['learny.services.browse'])
   return {
     scope: {},
     replace: true,
-    templateUrl: 'app/components/browse/browse.html',
+    templateUrl: 'app/pages/browse/browse.html',
     controller: function(){
       // Users.query(function(data){
       //   console.log(data);

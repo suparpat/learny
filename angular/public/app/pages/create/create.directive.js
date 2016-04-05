@@ -4,7 +4,7 @@ angular.module('learny.components.create',['learny.services.create'])
   return {
     scope: {},
     replace: true,
-    templateUrl: 'app/components/create/create.html',
+    templateUrl: 'app/pages/create/create.html',
     controller: function(){
 
     }

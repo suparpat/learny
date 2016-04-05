@@ -4,7 +4,7 @@ angular.module('learny.components.home',['learny.services.home'])
   return {
     scope: {},
     replace: true,
-    templateUrl: 'app/components/home/home.html',
+    templateUrl: 'app/pages/home/home.html',
     controller: function(){
       // Users.query(function(data){
       //   console.log(data);

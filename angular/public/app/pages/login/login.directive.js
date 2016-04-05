@@ -4,7 +4,7 @@ angular.module('learny.components.login',['learny.services.login'])
   return {
     scope: {},
     replace: true,
-    templateUrl: 'app/components/login/login.html',
+    templateUrl: 'app/pages/login/login.html',
     controller: function(){
 
     }

@@ -4,7 +4,7 @@ angular.module('learny.components.register',['learny.services.login'])
   return {
     scope: {},
     replace: true,
-    templateUrl: 'app/components/login/register.html',
+    templateUrl: 'app/pages/login/register.html',
     controller: function(){
       Users.query(function(data){
         console.log(data);
