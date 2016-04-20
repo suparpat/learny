@@ -1,0 +1,30 @@
+{
+  "name": "learny_api",
+  "version": "1.0.0",
+  "description": "API for Learny!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "suparpat",
+  "license": "MIT",
+  "dependencies": {
+    "async": "*",
+    "bcrypt": "^0.8.2",
+    "bluebird": "*",
+    "body-parser": "*",
+    "bookshelf": "*",
+    "ejs": "*",
+    "errorhandler": "*",
+    "express": "*",
+    "imagemagick": "*",
+    "jquery": "*",
+    "knex": "*",
+    "lodash": "*",
+    "method-override": "^2.3.2",
+    "moment": "^2.10.2",
+    "multer": "^0.1.8",
+    "pg": "*",
+    "request": "*"
+  }
+}

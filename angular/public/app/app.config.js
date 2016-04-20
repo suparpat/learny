@@ -16,9 +16,11 @@ angular.module('learny.config', [
     .when('/',{
       redirectTo: '/home'
     })
+
     .when('/home',{
       template: '<home></home>'
     })
+
     .when('/browse',{
       template: '<browse></browse>'
     })
@@ -30,18 +32,23 @@ angular.module('learny.config', [
     .when('/about',{
       templateUrl: 'app/pages/about.html'
     })
+
     .when('/login',{
       template: '<login></login>'
     })
+
     .when('/register',{
       template: '<register></register>'
     })
+
     .when('/faqs',{
       templateUrl: 'app/pages/faqs.html'
     })
+
     .when('/feedback',{
       template: '<feedback></feedback>'
     })
+    
     .otherwise({
       templateUrl: 'app/pages/a-mysterious-place.html'
     });

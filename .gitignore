@@ -2,3 +2,7 @@ angular/node_modules
 angular/bower_components
 api/config.json
 api/node_modules
+old/api_pg/node_modules
+old/api_pg/config.json
+old/api_bookshelf/node_modules
+old/api_bookshelf/config.json
